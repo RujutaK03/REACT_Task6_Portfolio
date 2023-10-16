@@ -1,0 +1,35 @@
+.body {
+    background-color: plum;
+    height: 100vh;
+}
+
+.content {
+    background-color: pink;
+    width: 1000px;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    margin-top: 180px;
+}
+
+.custom-button {
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.color-item {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}

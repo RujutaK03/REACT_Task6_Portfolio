@@ -1,10 +1,12 @@
 import './App.css';
-import Task1 from './Tasks/Task1'
+import ColorPicker from './Tasks/ColorPicker';
 
 function App() {
+  const colors = ['red', 'greenyellow', 'blue', 'yellow', 'hotpink', 'aqua', 'orange', 'purple', 'pink', 'green', 'crimson', 'cornflowerblue', 'brown', 'orangered', 'darkslateblue', 'gold'];
+
   return (
     <div className="App">
-      <Task1 />
+      <ColorPicker colors={colors} />
     </div>
   );
 }
