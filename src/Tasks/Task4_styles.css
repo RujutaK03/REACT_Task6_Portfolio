@@ -1,0 +1,10 @@
+.table td img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+table {
+    border: 2px solid white;
+    text-align: left;
+}
