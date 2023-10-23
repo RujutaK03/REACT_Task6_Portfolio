@@ -1,10 +1,11 @@
 import './App.css';
-import Task2 from './Tasks/Task2';
+import Portfolio from './Tasks/portfolio';
+import "./Tasks/portfolio_styles.css"
 
 function App() {
   return (
     <div className="App">
-      <Task2 />
+      <Portfolio />
     </div>
   );
 }
